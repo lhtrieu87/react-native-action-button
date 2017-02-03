@@ -63,7 +63,6 @@ export default class ActionButton extends Component {
   getActionsStyle() {
     return [
       styles.actionsVertical,
-      this.getOrientation(),
       {
         flexDirection: 'column',
         justifyContent: this.props.verticalOrientation === 'up' ? 'flex-end' : 'flex-start'
